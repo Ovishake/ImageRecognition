@@ -19,6 +19,7 @@ work where I did cv2.imread, I have used Keras to make a continouos flow of Imag
 using the flow_from_dataframe.
 
 Other files:
-nihtf.py is a pure tensorflow implementation using the DEPRECATED tf layers API
+nihtf.py is a pure tensorflow implementation using the DEPRECATED Tensorflow layers API
 as they are deprecated in TF2.0. The default layer building API for Tensorflow
-from Tensorflow 2.0 is TENSORFLOW-KERAS.
+from Tensorflow 2.0 is TENSORFLOW-KERAS. The work also shows the implementation of the
+Dataset API that is used to quickly make the Data Input Pipeline for the Neural Network.
